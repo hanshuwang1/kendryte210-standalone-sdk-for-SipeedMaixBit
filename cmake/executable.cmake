@@ -52,7 +52,7 @@ ENDIF()
 # Build target
 add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
         COMMAND ${CMAKE_OBJCOPY} --output-format=binary ${CMAKE_BINARY_DIR}/${PROJECT_NAME}${SUFFIX} ${CMAKE_BINARY_DIR}/${PROJECT_NAME}.bin
-        DEPENDS ${PROJECT_NAME}
+        # DEPENDS ${PROJECT_NAME}
         COMMENT "Generating .bin file ...")
 
 # show information
