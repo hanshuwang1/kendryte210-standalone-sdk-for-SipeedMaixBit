@@ -1,0 +1,9 @@
+{
+    // "C_Cpp.default.includePath": [
+        
+    // ],
+    "cmake.sourceDirectory": "${workspaceFolder}/../..",
+    "cmake.configureArgs": [
+        "-DPROJ=1_LCD"
+    ]
+}

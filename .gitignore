@@ -811,8 +811,8 @@ kendryte-standlone-sdk.si4project/
 
 kendryte-standalone-demo
 kendryte-standalone-demo-bak
-src/**
-!src/hello_world
+src/*
+!src/hello_world 
 !src/0_LED
 !src/1_LCD
 !src/2_I2S

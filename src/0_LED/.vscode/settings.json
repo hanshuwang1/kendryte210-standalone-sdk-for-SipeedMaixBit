@@ -1,0 +1,10 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}/../..",
+    "cmake.configureArgs": [
+        "-DPROJ=0_LED"
+    ],
+    // "C_Cpp.default.includePath": [
+
+
+    // ]
+}

@@ -1,0 +1,6 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}/../..",
+    "cmake.configureArgs": [
+        "-DPROJ=2_I2S"
+    ]
+}
