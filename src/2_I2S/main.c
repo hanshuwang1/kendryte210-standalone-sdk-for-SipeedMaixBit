@@ -44,8 +44,6 @@ int main(void){
     uint8_t i = 0;
     while(1)
     {
-        lcd_show_decimal_num(16, 100, i, 3, WHITE);
-        i++;
-        msleep(500); //gitignore测试
+
     }
 }
