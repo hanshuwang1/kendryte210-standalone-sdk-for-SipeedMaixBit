@@ -816,5 +816,6 @@ src/*
 !src/0_LED
 !src/1_LCD
 !src/2_I2S
+!src/4_DUAL_CORE
 /CMakeSettings.json
 /build_i

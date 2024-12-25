@@ -1,0 +1,7 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}/../..",
+    "cmake.configureArgs": [
+        "-DPROJ=4_DUAL_CORE"
+    ]
+    
+}
