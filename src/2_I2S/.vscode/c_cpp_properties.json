@@ -4,8 +4,8 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "D:/BIT/Course/MicrophoneArray/kendryte-standalone-sdk/lib/drivers/include",
-                "D:/BIT/Course/MicrophoneArray/kendryte-standalone-sdk/lib/bsp/include",
+                "D:/BIT/Course/MicrophoneArray/kendryte210-standalone-sdk-for-SipeedMaixBit/lib/drivers/include",
+                "D:/BIT/Course/MicrophoneArray/kendryte210-standalone-sdk-for-SipeedMaixBit/lib/bsp/include",
                 "D:/BIT/Course/MicrophoneArray/kendryte-toolchain/riscv64-unknown-elf/include"
             ],
             "defines": [

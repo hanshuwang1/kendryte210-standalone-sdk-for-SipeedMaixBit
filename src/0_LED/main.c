@@ -21,7 +21,7 @@ int main(void)
     fpioa_set_function(PIN_LED_B, FUNC_LED_BLUE); 
     fpioa_set_function(PIN_LED_R, FUNC_LED_RED); 
     fpioa_set_function(PIN_LED_G, FUNC_LED_GREEN);
-    /* (2)初始化GPIO */
+    /* (2)初始化GPIO 使能GPIO时钟 */
     gpio_init();
     /* (3)设置GPIO引脚为输出模式 */
     gpio_set_drive_mode(LED_BLUE_GPIONUM, GPIO_DM_OUTPUT);

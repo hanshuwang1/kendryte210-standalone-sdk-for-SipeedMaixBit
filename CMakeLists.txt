@@ -12,7 +12,7 @@ if (NOT PROJ)
 else()
     message("PROJ = ${PROJ}")
 endif ()
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.0...3.10)
 include(./cmake/common.cmake)
 project(${PROJ} C CXX ASM)
 
