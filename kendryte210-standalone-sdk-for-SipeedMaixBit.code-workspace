@@ -1,21 +1,31 @@
 {
 	"folders": [
         {
+            "name": "kendryte210-standalone-sdk-for-SipeedMaixBit",
             "path": "."
         },
         {
+            "name": "hello_world",
             "path": "src/hello_world"
         },
         {
+            "name": "0_LED",
             "path": "src/0_LED"
         },
         {
+            "name": "1_LCD",
             "path": "src/1_LCD"
         },
         {
+            "name": "2_I2S",
             "path": "src/2_I2S"
         },
         {
+            "name": "3_APU",
+            "path": "src/3_APU"
+        },
+        {
+            "name": "4_DUAL_CORE",
             "path": "src/4_DUAL_CORE"
         }
     ],

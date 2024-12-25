@@ -33,7 +33,6 @@ typedef struct{
 }frame_t;  /* brightness blue green red*/
 
 
-
 void sk9822_init(void);
 void sk9822_set_one_color(uint8_t n_led, frame_t frame);
 void sk9822_set_all_color(frame_t frame);

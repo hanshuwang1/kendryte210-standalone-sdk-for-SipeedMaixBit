@@ -73,19 +73,26 @@ int main(void){
     setup();
     uint8_t i = 0;
     frame_t my_frame;
-    for(i=0; i<16; i++){
+    frame_t my_frame2 = {0xE0, 0x00, 0x00, 0x00};
+    while(1)
+    {
+        for(i=0; i<12; i++){
         my_frame.brightness = 0xE5;
         my_frame.blue = gradient_table[i]>>16;
         my_frame.green = gradient_table[i]>>8 & 0x0000ff;
         my_frame.red = gradient_table[i] & 0x0000ff;
         sk9822_set_all_color(my_frame);
+        sk9822_set_one_color(i, my_frame2);
         msleep(500);
-        if(i == 15){
-            i = 0;
         }
-    }
-    while(1)
-    {
+        for(i=11; i>0; i--){
+        my_frame.blue = gradient_table[i]>>16;
+        my_frame.green = gradient_table[i]>>8 & 0x0000ff;
+        my_frame.red = gradient_table[i] & 0x0000ff;
+        sk9822_set_all_color(my_frame);
+        sk9822_set_one_color(i, my_frame2);
+        msleep(500);
+        }
         
 
         // mic_i2s_receive_data_dma();
